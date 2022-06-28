@@ -40,10 +40,11 @@ int main()
 	marines[1] = nullptr;*/
 
 	//-------------------------------------------------------------------
-
-	PhotonCannon pc1(3, 3);
+	char c[70] =  "Cannon";
+	PhotonCannon pc1(3, 3,c);
 	PhotonCannon pc2(pc1);
 	PhotonCannon pc3 = pc2;
+	PhotonCannon pc4(3, 3, "Cannon");
 
 	pc1.showStatus();
 	pc2.showStatus();

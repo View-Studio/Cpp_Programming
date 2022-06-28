@@ -1,6 +1,6 @@
 #include "Marine.h"
 
-Marine::Marine() : hp{50}, coordX{0}, coordY{0}, damage{5}, isDead{false}, name{nullptr}
+Marine::Marine() : hp{ 50 }, coordX{ 0 }, coordY{ 0 }, damage{ 5 }, isDead{ false }, name{ nullptr }
 {
 }
 

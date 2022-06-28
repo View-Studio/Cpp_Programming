@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{35d04b1f-d21b-45ac-85af-e449a6d99b00}</ProjectGuid>
-    <RootNamespace>StarCraft</RootNamespace>
+    <ProjectGuid>{37c8d0cf-0c71-4efb-8846-8b5b885a3dbb}</ProjectGuid>
+    <RootNamespace>CppConquest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,14 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Marine.h" />
-    <ClInclude Include="PhotonCannon.h" />
+    <ClInclude Include="string.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Marine.cpp" />
-    <ClCompile Include="PhotonCannon.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="string.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
