@@ -28,18 +28,18 @@ void showCard(int num)
 	{
 	case 11:
 		JQK = "JACK";
-		cout << "\n{" << strMark << " | " << JQK << "}\n" << endl;
+		cout << "{" << strMark << " | " << JQK << "}\n" << endl;
 		break;
 	case 12:
 		JQK = "QUEEN";
-		cout << "\n{" << strMark << " | " << JQK << "}\n" << endl;
+		cout << "{" << strMark << " | " << JQK << "}\n" << endl;
 		break;
 	case 13:
 		JQK = "KING";
-		cout << "\n{" << strMark << " | " << JQK << "}\n" << endl;
+		cout << "{" << strMark << " | " << JQK << "}\n" << endl;
 		break;
 	default:
-		cout << "\n{" << strMark << " | " << cards[num].number << "}\n" << endl;
+		cout << "{" << strMark << " | " << cards[num].number << "}\n" << endl;
 		break;
 	}
 }

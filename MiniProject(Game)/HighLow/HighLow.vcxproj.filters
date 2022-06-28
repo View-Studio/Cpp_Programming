@@ -39,6 +39,9 @@
     <ClCompile Include="ShowCard.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Beting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h">
@@ -57,6 +60,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ShowCard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Beting.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

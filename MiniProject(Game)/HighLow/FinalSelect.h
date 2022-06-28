@@ -1,4 +1,4 @@
 #pragma once
 #include "Common.h"
 
-void finalSelect();
+void finalSelect(int& money);

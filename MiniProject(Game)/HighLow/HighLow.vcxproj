@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Beting.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="FinalSelect.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="Shuffle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Beting.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="FinalSelect.h" />
