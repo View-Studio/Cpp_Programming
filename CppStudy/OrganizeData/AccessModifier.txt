@@ -1,0 +1,32 @@
+[상속 접근 지정자]
+
+
+public -> 얘보다 상속 정도가 큰 애만 "바꾸어서" 상속하고, 작은 애들은 그냥 상속한다.
+(public 보다 상속 정도가 큰 애가 없음)
+
+{public -> 변경하지 않음} {protected -> 변경하지 않음} {private -> 접근 못 함}
+
+
+
+protected, -> 얘보다 상속 정도가 큰 애만 "바꾸어서" 상속하고, 작은 애들은 그냥 상속한다.
+
+{public -> protected} {protected -> 변경하지 않음} {private -> 접근 못 함}
+
+
+
+private -> 얘보다 상속 정도가 큰 애만 "바꾸어서" 상속하고, 작은 애들은 그냥 상속한다.
+
+{public -> private} {protected -> private} {private -> 접근 못 함}
+
+
+
+
+
+[접근 지정자 규칙]
+
+public -> 어떤 클래스에서나 접근 가능
+protected, -> 자신을 상속하는 클래스까지만 접근 가능
+private -> 오직 자신의 클래스 안에서만 접근 가능
+
+[접근 지정자 상속 정도]
+public > protected > private
