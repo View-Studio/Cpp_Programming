@@ -16,20 +16,20 @@ struct Pos
 
 	bool operator!=(Pos& other)
 	{
-		return !(*this == other);
+		return !(*this == other); // this와 other가 같으면 false가 나오고, 다르면 true가 나온다.
 	}
 
-	Pos operator+(Pos& other)
+	Pos operator+(Pos& other) // A + B 반환
 	{
 		Pos ret;
 
-		ret.x = x + other.x;
 		ret.y = y + other.y;
+		ret.x = x + other.x;
 
 		return ret;
 	}
 
-	Pos& operator+=(Pos& other)
+	Pos& operator+=(Pos& other) // A += B -> A = A + B
 	{
 		y += other.y;
 		x += other.x;
